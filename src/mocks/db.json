@@ -1,0 +1,96 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "category" : ["Romance", "Drama"],
+      "name": "Querido John",
+      "year": "2010",
+      "actors": [ "Channing Tatum (John )" , "Amanda Seyfried (Savannah)" ],
+      "author": "Nicholas Sparks",
+      "tags": ["Distância", "Viagem"]
+    },
+    {
+      "id": 2,
+      "category" : ["Romance", "Drama"],
+      "name": "Antes que Termine o Dia",
+      "year": "2004",
+      "actors": [ "Paul Nicholls (Ian)" , "Jennifer Love Hewitt (Samantha)" ],
+      "author": "Christina Welsh",
+      "tags": ["Sam", "Dejavu"]
+    },
+    {
+      "id": 3,
+      "category" : ["Romance", "Drama"],
+      "name": "Paixão Sem Limites",
+      "year": "2010",
+      "actors": [ "Mario Casas (H)" , "Maria Valverde (Babi)", "Clara Lago (Gin)" ],
+      "author": "Frederico Moccia",
+      "tags": ["Espanhol", "Estrangeiro", "Amor", "Paixão", "Hace"]
+    },
+    {
+      "id": 4,
+      "category" : ["Romance", "Drama"],
+      "name": "Sou Louco Por Você",
+      "year": "2012",
+      "actors": [ "Mario Casas (H)" , "Maria Valverde (Babi)", "Clara Lago (Gin)" ],
+      "author": "Frederico Moccia",
+      "tags": ["Espanhol", "Estrangeiro", "Amor", "Paixão", "Hace"]
+    },
+    {
+      "id": 5,
+      "category" : ["Romance", "Drama"],
+      "name": "Simplesmente Acontece",
+      "year": "2014",
+      "actors": [ "Lily Jane Collins (Rosie)" , " Samuel George Claflin (Alex) "],
+      "author": "Frederico Moccia",
+      "tags": ["Gringo", "Estrangeiro", "Amor", "Paixão"]
+    },
+    {
+      "id": 6,
+      "category" : ["Suspense", "Policial"],
+      "name": "Dia de Treinamento",
+      "year": "2002",
+      "actors": ["Denzel Washington" , " Tom Berenger ",  "Ethan Hawke"],
+      "author": "David Ayer",
+      "tags": ["Gringo", "Estrangeiro", "Denzel"]
+    },
+    {
+      "id": 7,
+      "category" : ["Suspense", "Policial"],
+      "name": "Bad Boys Para Sempre",
+      "year": "1995",
+      "actors": ["Martin Lawrence", "Will Smith", "Tchéky Karyo"],
+      "author": "Michael Bay",
+      "tags": ["Gringo", "Estrangeiro", "Will"]
+    },
+    {
+      "id": 8,
+      "category" : ["Drama", "Família"],
+      "name": "Sempre ao Seu Lado",
+      "year": "2009",
+      "actors": ["Richard Tiffany Gere (Parker)", "Joan Allen(Cate)"],
+      "author": "Kaneto Shindô",
+      "tags": ["Gringo", "Estrangeiro", " Hachiko"]
+    },
+    {
+      "id": 9,
+      "category" : ["Comédia", "Drama"],
+      "name": "O Diabo Veste Prada",
+      "year": "2006",
+      "actors": ["Anne Hathaway (Andrea Sachs)", "Meryl Streep (Miranda Priestly)"],
+      "author": "David Frankel",
+      "tags": ["Gringo", "Estrangeiro"]
+    },
+    {
+      "id": 10,
+      "category" : ["Comédia", "Aventura"],
+      "name": "O Auto da Compadecida",
+      "year": "2000",
+      "actors": ["Matheus Nachtergaele (João Grilo)" , "Selton Mello (Chicó)" , "Fernanda Montenegro (Nossa Senhora)"],
+      "author": "Guel Arraes",
+      "tags": ["Nordeste", "Brasileiro"]
+    }
+
+
+  ]
+}
