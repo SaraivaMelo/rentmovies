@@ -78,3 +78,26 @@
 
 					"proxyConfig": "src/proxy.conf.json"
 
+
+	- Criar a toolbar. No material module
+
+		import {MatToolbarModule} from '@angular/material/toolbar';
+		import {MatIconModule} from '@angular/material/icon';
+		import {MatTooltipModule} from '@angular/material/tooltip';
+		
+
+			const MODULES = [ CommonModule, MatToolbarModule, MatIconModule , MatTooltipModule]
+
+			assim podemos usar esses items na aplicação
+
+		No html do app.html, cria o toolbar, assim:
+
+			<mat-toolbar>
+			    <span>{{ title }}</span>
+			    <span fxFlex></span>
+			    <button mat-icon-button aria-label="Dashboard">
+			      <mat-icon>dashboard</mat-icon>
+			    </button>
+			    <a mat-button matTooltip="Login">Login</a>
+			</mat-toolbar>
+
