@@ -7,7 +7,9 @@
       "year": "2010",
       "actors": [ "Channing Tatum (John ) " , " Amanda Seyfried (Savannah)" ],
       "author": "Nicholas Sparks",
-      "tags": ["Distância ", " Viagem"]
+      "tags": ["Romance ", " Viagem"],
+      "image": "./assets/img/dearJohn.jpg"
+
     },
     {
       "id": 2,
@@ -16,7 +18,8 @@
       "year": "2004",
       "actors": [ "Paul Nicholls (Ian) " , " Jennifer Love Hewitt (Samantha)" ],
       "author": "Christina Welsh",
-      "tags": ["Sam ", " Dejavu"]
+      "tags": ["Sam ", " Dejavu"],
+      "image": "./assets/img/antesQ.jpg"
     },
     {
       "id": 3,
@@ -25,7 +28,8 @@
       "year": "2010",
       "actors": [ "Mario Casas (H) " , " Maria Valverde (Babi) ", " Clara Lago (Gin)" ],
       "author": "Frederico Moccia",
-      "tags": ["Espanhol ", " Estrangeiro ", " Amor ", " Paixão ", " Hace"]
+      "tags": ["Espanhol "," Amor ", " Paixão "],
+      "image": "./assets/img/paixao.png"
     },
     {
       "id": 4,
@@ -34,7 +38,8 @@
       "year": "2012",
       "actors": [ "Mario Casas (H) " , " Maria Valverde (Babi)", " Clara Lago (Gin) " ],
       "author": "Frederico Moccia",
-      "tags": ["Espanhol ", " Estrangeiro ", " Amor ", " Paixão ", " Hace"]
+      "tags": ["Espanhol ", " Amor ", " Paixão ", " Hace"],
+      "image": "./assets/img/souLouco.jpg"
     },
     {
       "id": 5,
@@ -43,7 +48,8 @@
       "year": "2014",
       "actors": [ "Lily Jane Collins (Rosie) " , " Samuel George Claflin (Alex) "],
       "author": "Frederico Moccia",
-      "tags": ["Gringo ", " Estrangeiro ", " Amor ", " Paixão"]
+      "tags": ["Gringo ", " Amor ", " Paixão"],
+      "image": "./assets/img/simplesmente.jpg"
     },
     {
       "id": 6,
@@ -52,7 +58,8 @@
       "year": "2002",
       "actors": ["Denzel Washington " , " Tom Berenger ",  "Ethan Hawke"],
       "author": "David Ayer",
-      "tags": ["Gringo ", " Estrangeiro ", " Denzel"]
+      "tags": ["Gringo ", " Denzel"],
+      "image": "./assets/img/diad.jpg"
     },
     {
       "id": 7,
@@ -61,7 +68,8 @@
       "year": "1995",
       "actors": ["Martin Lawrence ", " Will Smith ", " Tchéky Karyo"],
       "author": "Michael Bay",
-      "tags": ["Gringo ", " Estrangeiro ", " Will"]
+      "tags": ["Gringo ", " Will"],
+      "image": "./assets/img/badboys.jpg"
     },
     {
       "id": 8,
@@ -70,7 +78,8 @@
       "year": "2009",
       "actors": ["Richard Tiffany Gere (Parker) ", " Joan Allen(Cate)"],
       "author": "Kaneto Shindô",
-      "tags": ["Gringo ", " Estrangeiro ", " Hachiko"]
+      "tags": ["Gringo ", " Hachiko"],
+      "image": "./assets/img/sempre.png"
     },
     {
       "id": 9,
@@ -79,16 +88,18 @@
       "year": "2006",
       "actors": ["Anne Hathaway (Andrea Sachs) ", " Meryl Streep (Miranda Priestly)"],
       "author": "David Frankel",
-      "tags": ["Gringo ", " Estrangeiro"]
+      "tags": ["Gringo "],
+      "image": "./assets/img/oDiaVeste.png"
     },
     {
       "id": 10,
       "category" : ["Comédia", "Aventura"],
       "name": "O Auto da Compadecida",
       "year": "2000",
-      "actors": ["Matheus Nachtergaele (João Grilo) " , " Selton Mello (Chicó) " , " Fernanda Montenegro (Nossa Senhora)"],
+      "actors": ["Matheus Nachtergaele (João Grilo) " , " Selton Mello (Chicó) " ],
       "author": "Guel Arraes",
-      "tags": ["Nordeste ", " Brasileiro"]
+      "tags": ["Nordeste ", " Brasileiro"],
+      "image": "./assets/img/oAuto.jpg"
     }
 
 

@@ -1,19 +1,21 @@
-<mat-card *ngFor="let movie of movies">
-  <mat-card-header>
-    <mat-card-title>{{ movie.name }}</mat-card-title>
-  </mat-card-header>
-  <img mat-card-image >
-  <mat-card-content>
-    <p>Atores: </p><mat-card-subtitle>{{ movie.actors }}</mat-card-subtitle>
-  </mat-card-content>
-  <mat-card-content>
-    <p>Lançamento: </p><mat-card-subtitle>{{ movie.year }}</mat-card-subtitle>
-  </mat-card-content>
-  <mat-card-content>
-    <p>Autor: </p><mat-card-subtitle>{{ movie.author }}</mat-card-subtitle>
-  </mat-card-content>
-  <mat-card-content>
-    <p>Tags: </p><mat-card-subtitle>{{ movie.tags }}</mat-card-subtitle>
-  </mat-card-content>
+<div class="container divBox" >
+  <mat-card *ngFor="let movie of movies"  class="containerMat mat-elevation-z8" >
+    <mat-card-header>
+      <mat-card-title>{{ movie.name }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="movie.image">
+    <mat-card-content>
+     <span>Atores:</span> {{ movie.actors }}
+    </mat-card-content>
+    <mat-card-content>
+      <span>Lançamento:</span> {{ movie.year }}
+    </mat-card-content>
+    <mat-card-content>
+      <span>Autor: </span>{{ movie.author }}
+    </mat-card-content>
+    <mat-card-content>
+      <span>Tags:</span> {{ movie.tags }}
+    </mat-card-content>
+  </mat-card>
+</div>
 
-</mat-card>

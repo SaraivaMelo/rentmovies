@@ -101,3 +101,31 @@
 			    <a mat-button matTooltip="Login">Login</a>
 			</mat-toolbar>
 
+	- Criando o app.routing
+
+		ng g module app-routing --flat --module=app
+		Com isso sera criado o app-routing.module.ts e já adicionado dentroi d app.modules
+	
+	- Criada a primeira rota:
+
+		const routes : Routes = [
+		  { path: 'dashboard', component: DashboardComponent}
+		]
+
+	- Configurado o routerlink para apontar para essa rota, no button da toolbar:
+
+		<button mat-icon-button aria-label="Dashboard" routerLink="/dashboard">
+	      <mat-icon>dashboard</mat-icon>
+	    </button>
+
+	- Criado o dashboard component e dentro da classe, foi:
+
+		- Criado um atributo movies, do tipo Movie para receber o array de filmes.
+		- Adicionado no construtor o moviesServices
+		- Criado um método para buscar os movies através do moviesServices
+		- Adicionada a chamada do getMovies dentro do ngOnInit()
+
+	 - Criado um  ngFor no dashboardHTML para mostrr os itens  na tela
+
+	  
+

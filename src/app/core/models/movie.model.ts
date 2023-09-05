@@ -5,7 +5,8 @@ export interface Movie{
     year: string,
     actors: Array<string>,
     author: string,
-    tags: Array<string>
+    tags: Array<string>,
+    image: string
 }
 
 

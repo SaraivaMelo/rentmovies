@@ -1,0 +1,31 @@
+.divBox{
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.containerMat{
+  width: 300px;
+  height: 400px;
+  margin: 20px 0px;
+}
+
+mat-card-title{
+  margin: 5px 0px;
+}
+
+img{
+  width: 300px;
+  height: 150px;
+}
+
+mat-card-content{
+  margin: 5px 0px;
+}
+span{
+  font-weight: 500;
+}
