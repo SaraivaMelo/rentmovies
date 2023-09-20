@@ -1,0 +1,15 @@
+<div mat-dialog-content class="divDialog" >
+
+    <mat-form-field class="matComment">
+      <mat-label>O que gostaria de falar? </mat-label>
+      <input matInput [(ngModel)]="data.content">
+    </mat-form-field>
+
+    <div mat-dialog-actions>
+      <button  mat-button [mat-dialog-close]="data.content">Comentar</button>
+      <button  mat-button  (click)="onNoClick()">Cancelar</button>
+    </div>
+
+</div>
+
+

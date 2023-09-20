@@ -1,0 +1,12 @@
+.divDialog{
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.matComment{
+  width: 100%;
+}

@@ -1,0 +1,55 @@
+<div class="container">
+  <button mat-button (click)="goBack()">Voltar</button>
+</div>
+
+<div *ngIf="movie" class="container">
+  <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ movie.name }}</mat-card-title>
+      </mat-card-header>
+    <div class="content">
+
+      <div class="infos">
+
+          <div class="photo">
+            <img mat-card-image [src]="movie.image">
+          </div>
+          <mat-card-content>
+            <span>Atores:</span> {{ movie.actors }}
+          </mat-card-content>
+          <mat-card-content>
+            <span>Lançamento:</span> {{ movie.year }}
+          </mat-card-content>
+          <mat-card-content>
+            <span>Autor: </span>{{ movie.author }}
+          </mat-card-content>
+          <mat-card-content>
+            <span>Tags:</span> {{ movie.tags }}
+          </mat-card-content>
+          <div class="icon">
+              Likes:
+              <mat-icon>
+                thumb_up
+            </mat-icon>
+            (0)
+          </div>
+          <mat-card-content>
+            <span>Views:</span> {{ movie.ticket }} visualizações
+          </mat-card-content>
+      </div>
+
+      <div class="description">
+        {{ movie.description }}
+      </div>
+
+    </div>
+    <div class="btncomment">
+      <button mat-raised-button (click)="openDialog()">Comentar</button>
+    </div>
+  </mat-card>
+
+</div>
+
+<div class="container">
+  <button mat-button (click)="goBack()">Voltar</button>
+</div>

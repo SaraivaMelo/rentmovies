@@ -125,7 +125,26 @@
 		- Criado um método para buscar os movies através do moviesServices
 		- Adicionada a chamada do getMovies dentro do ngOnInit()
 
-	 - Criado um  ngFor no dashboardHTML para mostrr os itens  na tela
+	 - Criado um  ngFor no dashboardHTML para mostrar os itens  na tela
 
-	  
+	  		 <mat-card *ngFor="let movie of movies"  class="containerMat mat-elevation-z8" >
+
+	  		 	Aqui a gente pega o resultado do for e passa de acordo com cada campo.
+	  		 <mat-card/>
+
+	 - Criando o método de busca, dentro do service:
+
+	 		  search(data: string): Observable<Movie[]>{
+
+			    if(!data.trim()){
+			      return of([])
+			    }
+
+			    return this.http.get<Movie[]>(`${this.moviesuRL}?name=${data}`)
+
+			  }
+	- Criar o shared module, pois é nece que criamos o htmo da busca e edpois a gente comparilha onde desejar.
+
+		
+
 

@@ -8,7 +8,9 @@
       "actors": [ "Channing Tatum (John ) " , " Amanda Seyfried (Savannah)" ],
       "author": "Nicholas Sparks",
       "tags": ["Romance ", " Viagem"],
-      "image": "./assets/img/dearJohn.jpg"
+      "image": "./assets/img/dearJohn.jpg",
+      "description": "Lançado em 2010, “Querido John” chegou aos cinemas e conquistou o público, contando uma história emocionante baseada no romance homônimo de Nicholas Sparks, publicado em 2006. Na trama, acompanhamos John Tyree, um jovem soldado que está em casa de licença e acaba conhecendo Savannah Curtis, uma universitária idealista por quem ele se apaixona durante as férias da faculdade. Eles começam um relacionamento, visando que John teria que voltar a trabalhar por mais um ano no serviço militar.  Contudo, conforme o tempo foi passando, John foi convocado para missões perigosas e a única forma de se comunicarem é por cartas, onde eles contam como são os seus dias. O autor da história Nicholas Sparks é conhecido por seus romances emocionantes e que costumam explorar temas de amor, como “As Palavras que Nunca Te Direi”, que teve inspiração em fatos reais. Contudo, “Querido John” é uma obra de ficção, trazendo uma história com algumas semelhanças reais, como as dificuldades de ter um relacionamento à distância, principalmente entre soldados e suas parceiras. Inclusive, o próprio autor deu declarações que, por mais que pareça ser uma história realista, Querido John surgiu de sua imaginação. Sendo assim, apesar de não ser uma trama verídica, Sparks consegue trazer uma narrativa emocionante sobre os desafios de um relacionamento à distância. Vale destacar que, apesar de a história ser fictícia, o personagem Alan foi inspirado no filho do roteirista Nicholas Sparks, que sofre de Síndrome de Asperger, uma forma de autismo.",
+      "ticket": "5.000.000"
 
     },
     {
@@ -29,7 +31,8 @@
       "actors": [ "Mario Casas (H) " , " Maria Valverde (Babi) ", " Clara Lago (Gin)" ],
       "author": "Frederico Moccia",
       "tags": ["Espanhol "," Amor ", " Paixão "],
-      "image": "./assets/img/paixao.png"
+      "image": "./assets/img/paixao.png",
+      "description": "Dois jovens, que pertencem a mundos diferentes, apaixonam-se e mergulham em uma emocionante jornada de descobertas. Babi é uma garota de classe alta, inocente, educada dentro de princípios rígidos. Hace é um rapaz rebelde, impulsivo, que adora viver perigosamente e está sempre participando em corridas ilegais de motos. Babi e Hace vão lutar contra preconceitos e contra todos, para viver uma história de amor digna de Romeu e Julieta."
     },
     {
       "id": 4,

@@ -4,9 +4,9 @@
     <button mat-icon-button aria-label="Dashboard" routerLink="/dashboard">
       <mat-icon>dashboard</mat-icon>
     </button>
-    <a mat-button matTooltip="Login">Login</a>
+    <app-search [label]="'Buscar'" (selected)="onSelected($event)"></app-search>
 </mat-toolbar>
-
+  <app-slider [slides]="slides"></app-slider>
 <div class="content">
   <router-outlet></router-outlet>
 </div>

@@ -1,0 +1,43 @@
+img{
+  margin: 20px;
+  width: 500px;
+}
+.container{
+  margin-top: 20px;
+}
+.photo{
+  width: 600px;
+  max-width: 600px;
+}
+
+.content{
+  display: flex;
+
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description{
+  width: 650px;
+  font-size: 17px;
+  padding: 10px;
+}
+
+
+.icon{
+  width: 90px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btncomment{
+  width: 70px;
+  height: 70px;
+  margin-left: 16px;
+
+}

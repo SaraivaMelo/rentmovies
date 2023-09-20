@@ -8,6 +8,8 @@ import { CoreModule } from './core/core.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { SharedModule } from './shared/shared.module';
+import { MoviesModule } from './movies/movies.module';
 
 @NgModule({
   declarations: [AppComponent, DashboardComponent],
@@ -17,9 +19,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserAnimationsModule,
     FlexLayoutModule,
     HttpClientModule,
+    SharedModule,
 
+    MoviesModule,
     CoreModule,
-     AppRoutingModule
+    AppRoutingModule
 
   ],
 

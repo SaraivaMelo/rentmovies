@@ -1,0 +1,11 @@
+
+<div class="input" >
+  <input type="text" [matAutocomplete]="auto"  matInput placeholder="Buscar" #search (input)="getSearch(search.value)">
+
+  <mat-autocomplete #auto="matAutocomplete" (optionSelected)="onSelected($event); search.value = ''">
+      <mat-option *ngFor="let movie of movies$ | async" [value]="movie">
+        {{ movie.name }}
+      </mat-option>
+  </mat-autocomplete>
+
+</div>

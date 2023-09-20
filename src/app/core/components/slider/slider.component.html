@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="slider">
+    <div>
+      <div (click)="goToPrevious()" class="arrowLeft">
+        <mat-icon>
+          arrow_back_ios
+        </mat-icon>
+      </div>
+      <div (click)="goToNext()" class=arrowRight>
+        <mat-icon>
+          arrow_forward_ios
+        </mat-icon>
+      </div>
+    </div>
+    <div
+      class="slide"
+      [ngStyle]="{ 'background-image': getCurrentSlideUrl() }"
+    ></div>
+
+    <!-- <div class="dotsContainer">
+       <div class="dot" *ngFor="let slide of slides">
+          <img src="" alt="">
+       </div>
+    </div> -->
+  </div>
+</div>

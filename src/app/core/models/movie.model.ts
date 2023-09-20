@@ -6,7 +6,9 @@ export interface Movie{
     actors: Array<string>,
     author: string,
     tags: Array<string>,
-    image: string
+    image: string,
+    description: string,
+    ticket: string
 }
 
 
